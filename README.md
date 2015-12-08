@@ -7,15 +7,15 @@
     ----------------------------------------------------------------- 
 
 
-Welcome to your Node.js project on Cloud9 IDE!
+This is a Node.js project on Cloud9 IDE! For Testing pupose only
 
-This chat example showcases how to use `socket.io` with a static `express` server.
 
 ## Running the server
+1) npm install first 
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+2) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
 
-2) Alternatively you can launch the app from the Terminal:
+3) Alternatively you can launch the app from the Terminal:
 
     $ node server.js
 
