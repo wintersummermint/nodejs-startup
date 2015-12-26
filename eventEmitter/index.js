@@ -1,7 +1,15 @@
-var http = require('http');
-var EventEmitter = require("event").EventEmitter;
 
-http.createServer(function(req,res){
-    res.writeHead(200);
-    console.log('dwqqd');
-}).listen(8080);
+var Resource = require("./resource");
+var r = new Resource(7);
+
+r.on('start', function(){
+    console.log('starting !');
+});
+
+r.on('data', function() {
+    console.log('receiving data');
+});
+
+r.on('end',function(t) {
+    console.log('done with ' + t + ' data events');
+});
